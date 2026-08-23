@@ -1,0 +1,157 @@
+{
+  "ok": true,
+  "review_status": "pass",
+  "reviewed_by": "independent_final_visual_qa",
+  "visual_qa_note": "All required rows preserve the same pet identity, style, palette, proportions, props, transparency, and readable state motion without visible structural defects.",
+  "ordered_loop": "clockwise",
+  "directions": [
+    {
+      "direction": "000",
+      "verdict": "pass",
+      "expected": "up",
+      "observed": "up",
+      "horizontal_evidence": "Both eyes remain centered with no readable left/right projection.",
+      "vertical_evidence": "Chin, nose plane, and pupils lift above the neutral eye line.",
+      "reason": "The upward cardinal is unmistakable without whole-body rotation."
+    },
+    {
+      "direction": "022.5",
+      "verdict": "pass",
+      "expected": "up-right",
+      "observed": "up-right",
+      "horizontal_evidence": "Nose tip and visible cheek project toward the screen-right edge.",
+      "vertical_evidence": "Chin and pupils remain visibly elevated above neutral.",
+      "reason": "Reads as the first smooth clockwise step from up toward right."
+    },
+    {
+      "direction": "045",
+      "verdict": "pass",
+      "expected": "up-right",
+      "observed": "up-right",
+      "horizontal_evidence": "Face, nose, and eye line point clearly screen-right.",
+      "vertical_evidence": "Raised chin and gaze preserve a clear upward component.",
+      "reason": "Balanced diagonal with no reversal or silhouette break."
+    },
+    {
+      "direction": "067.5",
+      "verdict": "pass",
+      "expected": "up-right",
+      "observed": "up-right",
+      "horizontal_evidence": "Rightward profile is stronger than in 045 and approaches the right cardinal.",
+      "vertical_evidence": "A subtle lifted chin remains visible before the level 090 pose.",
+      "reason": "Correct final intermediate step into the right cardinal."
+    },
+    {
+      "direction": "090",
+      "verdict": "pass",
+      "expected": "right",
+      "observed": "right",
+      "horizontal_evidence": "Nose tip sits to the right of the head center and projects toward the screen-right edge; the visible eye and cheek align rightward.",
+      "vertical_evidence": "Head pitch is level relative to the neutral pose.",
+      "reason": "The repaired right cardinal is unmistakable and passed all three blind reviewers."
+    },
+    {
+      "direction": "112.5",
+      "verdict": "pass",
+      "expected": "down-right",
+      "observed": "down-right",
+      "horizontal_evidence": "Nose and facial plane remain clearly screen-right.",
+      "vertical_evidence": "Eye line and chin begin descending below the level 090 pose.",
+      "reason": "Reads as the first clockwise step from right toward down."
+    },
+    {
+      "direction": "135",
+      "verdict": "pass",
+      "expected": "down-right",
+      "observed": "down-right",
+      "horizontal_evidence": "Profile and visible eye retain a clear screen-right aim.",
+      "vertical_evidence": "Lowered eyelids, nose plane, and chin supply an obvious downward component.",
+      "reason": "Clear diagonal and smooth continuation toward 180."
+    },
+    {
+      "direction": "157.5",
+      "verdict": "pass",
+      "expected": "down-right",
+      "observed": "down-right",
+      "horizontal_evidence": "Although near the downward cardinal, the nose still projects to screen-right.",
+      "vertical_evidence": "Head and gaze are strongly bowed toward the lower edge.",
+      "reason": "Correct last intermediate step before down; larger silhouette change is caused by hair and head pitch, not identity drift."
+    },
+    {
+      "direction": "180",
+      "verdict": "pass",
+      "expected": "down",
+      "observed": "down",
+      "horizontal_evidence": "Face is centered with no dominant screen-left or screen-right projection.",
+      "vertical_evidence": "Forehead, eyelids, nose, and chin all lower toward the bottom edge.",
+      "reason": "The downward cardinal is unmistakable and passed all three blind reviewers."
+    },
+    {
+      "direction": "202.5",
+      "verdict": "pass",
+      "expected": "down-left",
+      "observed": "down-left",
+      "horizontal_evidence": "Nose tip and facial plane turn toward the screen-left edge.",
+      "vertical_evidence": "Head remains bowed with a visibly downcast gaze.",
+      "reason": "Reads as the first smooth clockwise step from down toward left."
+    },
+    {
+      "direction": "225",
+      "verdict": "pass",
+      "expected": "down-left",
+      "observed": "down-left",
+      "horizontal_evidence": "Leftward nose projection and cheek visibility are clear.",
+      "vertical_evidence": "Lowered chin and eyelids preserve the downward component.",
+      "reason": "Clear diagonal with stable identity and registration."
+    },
+    {
+      "direction": "247.5",
+      "verdict": "warning",
+      "expected": "down-left",
+      "observed": "down-left with subtle vertical cue",
+      "horizontal_evidence": "Face and nose remain unambiguously screen-left.",
+      "vertical_evidence": "The chin is slightly lower than 270, but the blind majority found this small pitch change hard to judge in isolation.",
+      "reason": "Accepted intermediate warning: labeled ordered-loop review confirms the correct quadrant and no reversal."
+    },
+    {
+      "direction": "270",
+      "verdict": "pass",
+      "expected": "left",
+      "observed": "left",
+      "horizontal_evidence": "Nose tip sits to the left of the head center and projects toward the screen-left edge; eye and cheek alignment are leftward.",
+      "vertical_evidence": "Head pitch is level between the adjacent down-left and up-left steps.",
+      "reason": "The left cardinal is unmistakable and passed all three blind reviewers."
+    },
+    {
+      "direction": "292.5",
+      "verdict": "warning",
+      "expected": "up-left",
+      "observed": "up-left with subtle vertical cue",
+      "horizontal_evidence": "Face and nose remain unambiguously screen-left.",
+      "vertical_evidence": "The chin begins lifting above 270, but the blind majority found this small pitch change hard to judge in isolation.",
+      "reason": "Accepted intermediate warning: labeled ordered-loop review confirms the correct quadrant and no reversal."
+    },
+    {
+      "direction": "315",
+      "verdict": "pass",
+      "expected": "up-left",
+      "observed": "up-left",
+      "horizontal_evidence": "Nose and facial plane point clearly screen-left.",
+      "vertical_evidence": "Raised chin and eye line provide a readable upward component.",
+      "reason": "Clear diagonal and smooth progression toward 000."
+    },
+    {
+      "direction": "337.5",
+      "verdict": "pass",
+      "expected": "up-left",
+      "observed": "up-left",
+      "horizontal_evidence": "A small but definite screen-left nose projection remains.",
+      "vertical_evidence": "Chin and pupils lift strongly toward the upward cardinal.",
+      "reason": "Correct final clockwise step into 000 with no loop reversal."
+    }
+  ],
+  "warnings": [
+    "247.5 and 292.5 have subtle vertical cues in isolated blind pairs, but their labeled normal-size positions, correct quadrants, and ordered-loop progression are coherent.",
+    "Continuity metrics report local silhouette and area outliers around hair, hat, and bowed-head poses; visual review found no conspicuous snap, pop, broken attachment, identity change, or interior artifact."
+  ]
+}
